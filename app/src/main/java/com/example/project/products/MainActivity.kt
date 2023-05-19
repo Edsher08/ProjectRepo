@@ -8,7 +8,7 @@ import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.project.ProductAdapter
+import com.example.project.products.adapter.ProductAdapter
 import com.example.project.R
 import com.example.project.databinding.ActivityMainBinding
 import com.example.project.products.view_model.MainViewModel
