@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         initializeViews()
         initializeObserver()//test 2
 
+
         viewModel.loadProduct()
     }
     private fun initializeViews(){
