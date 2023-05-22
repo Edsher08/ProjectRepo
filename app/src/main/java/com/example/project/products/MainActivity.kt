@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
         initializeViews()
-        initializeObserver()
+        initializeObserver()//test1
 
         viewModel.loadProduct()
     }
