@@ -25,11 +25,11 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
         initializeViews()
-        initializeObserver()//test1
+        initializeObserver()//test 2
+
 
         viewModel.loadProduct()
     }
-
     private fun initializeViews(){
         binding.recyclerView.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
