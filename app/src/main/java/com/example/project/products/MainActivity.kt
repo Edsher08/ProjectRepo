@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddItemActivity::class.java)
             intent.putExtra("EXTRA_KEY","extra_value")
             startActivity(intent)
-            Toast.makeText(this, "goods", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Next Activity", Toast.LENGTH_SHORT).show()
 
             viewModel.loadProduct()
         }
